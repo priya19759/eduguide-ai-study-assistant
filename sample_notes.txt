@@ -1,0 +1,25 @@
+UNIT V: APPLICATIONS, ETHICS AND FUTURE TRENDS — STUDY NOTES
+
+1. Agentic AI
+An AI agent is a system that can observe information, reason about a goal, and take actions using tools. An agent may work with limited or greater autonomy depending on the risk of the task.
+
+2. AI safety and autonomy
+The autonomy given to an agent should depend on the cost of a mistake. Low-risk tasks such as summarising notes may be automated. High-impact or irreversible actions should require human review or prior approval.
+
+3. Hallucination and grounding
+A hallucination is an answer that sounds confident but is false or unsupported. Grounding means connecting an answer to reliable source material. If the source does not contain the answer, a responsible assistant should say that it does not know rather than inventing facts.
+
+4. Prompt injection
+Prompt injection is an attempt to manipulate an AI system through instructions placed in user input or external content. Indirect prompt injection can appear inside emails, documents, web pages, or uploaded files. External content should be treated as untrusted data, not as higher-priority instructions.
+
+5. Defence in depth
+Input guards inspect incoming content. Tool-call guards check whether requested actions are permitted. Output guards inspect responses before they are shown. Approval gates require a person to authorise sensitive actions. Logs record activity for review. Least-privilege access gives an agent only the permissions it needs.
+
+6. Privacy and responsible education
+Student records, contact details, grades, and learning histories should be protected. Collect only the minimum data needed, restrict access, and avoid exposing personal information. Students should know when they are interacting with AI.
+
+7. Human oversight
+Teachers remain responsible for educational decisions. AI can support explanations and revision, but should not be the sole authority for grading, discipline, admissions, or other high-impact decisions.
+
+8. Verification
+Important claims and actions should be checked against the original source or system. A system should not claim that it saved, sent, or changed something unless a read-back check confirms the action.
